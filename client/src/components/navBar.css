@@ -1,16 +1,16 @@
-.container{
+.containerrr{
     display: flex;
     justify-content: space-between;
 }
-.container img{
+.containerrr img{
     width: 120px;
 }
-.container ul{
+.containerrr ul{
     display: flex;
     list-style-type: none;
     gap: 20px;
 }
-.container ul a{
+.containerrr ul a{
     text-decoration: none;
     color: black;
 }

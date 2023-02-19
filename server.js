@@ -10,7 +10,7 @@ require('./helpers/dbConnect')
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 app.post("/user/chat", async (req, res) => {

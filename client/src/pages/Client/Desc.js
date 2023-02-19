@@ -5,7 +5,6 @@ import './desc.css'
 import {updateFeedback}from '../../redux/Actions/authActions';
 import { useDispatch, useSelector } from 'react-redux';
 function Desc() {
-    const feedback = useSelector(state => state.authReducer.feedback);
 
     const r=useRef()
     const text=useState()
@@ -19,8 +18,8 @@ function Desc() {
         const str="A description of "+theme+" for "+audience+" audience"+"the theme is "+choice+" with this description : "+r.current.value
         setFinal(str)
         console.log(str)
-        axios.post("http://localhost:8000/user/chat",{prompt:final}).then(res=>setv((res.data[0].text)))
-        console.log(feedback)
+        axios.post("http://localhost:8000/user/chat",{prompt:"how are you"}).then(res=>setv((res.data[0].text)))
+        
 
     }
     

@@ -8,7 +8,7 @@ import flech1 from "../images/flech1.png";
 import flech2 from "../images/flech2.png";
 import filtre2 from "../images/filtre2.png";
 /* import hand from "../images/hand.png"; */
-
+import omg from './a.svg'
 import girl from "../images/girl.png";
 import fin from "../images/fin.png";
 
@@ -35,8 +35,9 @@ return (
     <div className='plagging'>
      <h1>95% of clients are happy with our services</h1>   
      <div className='wave'>
-     <img src={palagging} />
-     <img src={palagging2} />
+    <img src={omg}></img>
+   {/*   <img src={palagging} />
+     <img src={palagging2} /> */}
      </div>
     </div>
      <div className='title'>
@@ -142,7 +143,7 @@ return (
             <p>Join our community and stay informed. Subscribe for the latest updates, news, and promotions from Creatify!</p>
             <span>Email</span>
             <br/>
-            <p>example@gmail.com</p>
+            <input placeholder='example@gmail.com'></input>
             <button>Subscribe</button>
         </div>
      </div>

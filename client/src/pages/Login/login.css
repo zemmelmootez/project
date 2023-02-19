@@ -1,6 +1,6 @@
 .login{
    display: flex;
-   justify-content: center;
+   justify-content: center !important;
    font-family: 'Poppins';
    gap: 80px;
 }
@@ -9,7 +9,7 @@
 	color: rgb(39, 39, 39);
 }
 .login img{
-	width: 480px;
+	width: 480px !important;
 }
 .login form div{
 	display: flex;

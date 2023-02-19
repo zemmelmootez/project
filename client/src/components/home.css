@@ -17,22 +17,33 @@
     color: white;
    justify-self: end;
 }
-.wave{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  
-}
+
 .wave img{
-    width: 100vw !important;
+   width: 100% !important;
+ 
+
 }
+.wave{
+    width: 100vw;
+}
+
 
 .plagging h1{
     position: absolute;
     color: white;
-    right: 400px;
-    bottom: -40px;
+    right: 250px;
+    font-size: 40px;
+    bottom: -90px;
  
+}
+.title2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+.services{
+    padding: 40px 0;
 }
 
 .title  {
@@ -107,7 +118,12 @@ color: #777;
  }
  #fin{
     display: flex;
+    justify-content: center;
+    width: 100%;
  }
  #fin img{
     width: 35%;
+ }
+ #fin div{
+    width: 80%;
  }

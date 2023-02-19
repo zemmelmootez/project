@@ -1,9 +1,10 @@
 import React from 'react';
 import "./navBar.css";
 import logo from "../images/logo.png" ;
+import { NavLink } from 'react-router-dom';
 const NavBar=()=>{
     return (
-        <div className='container'>
+        <div className='containerrr'>
            <img src={logo}/>
             <div className='links'>
         
@@ -12,7 +13,7 @@ const NavBar=()=>{
                 <li><a href='#'>Contact</a></li>
                 <li><a href='#'>Feedbacks</a></li>
             </ul>
-            <button>Get Started</button>
+            <NavLink to={"/register"}><button>Get Started</button></NavLink>
             </div>
         </div>
     );

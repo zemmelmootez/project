@@ -1,0 +1,25 @@
+.active{
+  background-color: #2a6fee !important;
+  color: white !important;
+}
+.left-side a{
+  text-decoration: none;
+  color: black;
+  
+  background-color: white;
+  padding: 1vw 4vw;
+  width: 240px;
+
+  
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #31637b06;
+  width: fit-content;
+  padding: 3vw;
+ gap: 30px;
+  height: 80vh;
+}

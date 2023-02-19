@@ -1,0 +1,138 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.headerr {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+  width: calc(33.33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.number {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  color: #333;
+}
+
+.user-list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.user-list {
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list th,
+.user-list td {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.user-list th {
+  font-weight: bold;
+  text-align: center;
+}
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.username {
+  font-size: 18px;
+  color: #333;
+}
+
+.delete-button {
+  background-color: #ff4136;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #d73e3e;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+  
+
+h2 {
+  margin: 0;
+}
+
+.user-list {
+  width: 80%;
+}
+.headerr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.box:hover  {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.box p {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0;
+}

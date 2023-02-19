@@ -1,0 +1,45 @@
+.hello{
+    background-color: #0085c3cf  !important;
+    color: white;
+
+}
+.buttoncont{
+  
+  display: flex;
+  gap: 20px;
+  align-self: flex-start;
+  
+}
+.buttoncont button{
+    background-color: white;
+    border: 0;
+    padding: 10px 20px;
+}
+.description{
+    background-color: rgba(237, 237, 237, 0.726);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: start !important;
+    justify-content: start !important;
+
+}
+.description select{
+    padding: 4px 0;
+    width: 140px;
+}
+#details{
+    height: 200px;
+    width: 350px;
+    padding: 8px 2px;
+}
+#sub{
+    border: 0;
+    background-color: #0085c3cf;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    text-transform: capitalize;
+}

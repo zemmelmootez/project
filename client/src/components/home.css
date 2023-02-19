@@ -1,0 +1,113 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    padding: 0 0 0 4vw;
+}
+.mg img{
+    width: 500px !important;
+}
+.text p{
+    width: 400px;
+}
+.container1 button{
+    background-color: #0085c3;
+    border: 0;
+    padding: 10px;
+    color: white;
+   justify-self: end;
+}
+.wave{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  
+}
+.wave img{
+    width: 100vw !important;
+}
+
+.plagging h1{
+    position: absolute;
+    color: white;
+    right: 400px;
+    bottom: -40px;
+ 
+}
+
+.title  {
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title p {
+    color: #777;
+    width: 30%;
+    margin: auto;
+    line-height: 1.8;
+ }
+
+ .services{
+    display:flex;
+    justify-content: space-around;
+    text-align: start;
+ }
+ .services img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+ }
+ .services #img2 , #hand , #flech3 , #flech1 { 
+    width: 40px;
+    height: 40px;
+ }
+ .services img{
+    width: 40px !important;
+    height: 40px !important;
+ }
+ #flech2{
+    height: 50px;
+    bottom: 7px;
+}
+ #flech3 , #flech1 , #flech2{
+    position:absolute;
+    right:0;
+ }
+ .element{
+    position: relative;
+    height: 270px;
+    width: 25vw;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 15px #777  ;
+    padding: 0 15px;
+ }
+ .servFlex {
+    display: flex;
+    align-items: center;
+ }
+ .servFlex .text{
+    margin-top: 10px;
+ }
+ .title2{
+    margin-top: 10vh;
+ }
+ .title2 p {
+    color: #777;
+    width: 30%;
+    margin: auto;
+    line-height: 1.8;
+ }
+ .p2 {
+color: #777;
+ }
+ #fin{
+    display: flex;
+ }
+ #fin img{
+    width: 35%;
+ }

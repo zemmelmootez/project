@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container img{
+    width: 120px;
+}
+.container ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.container ul a{
+    text-decoration: none;
+    color: black;
+}
+.links{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.links button{
+    border-radius: 34px;
+ 
+    padding: 15px 18px;
+    color: white;
+
+    background-color: #0085c3;
+    border: 0;
+}

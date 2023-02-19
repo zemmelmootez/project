@@ -1,0 +1,68 @@
+.login{
+   display: flex;
+   justify-content: center;
+   font-family: 'Poppins';
+   gap: 80px;
+}
+.login h1{
+	font-size: 48px;
+	color: rgb(39, 39, 39);
+}
+.login img{
+	width: 480px;
+}
+.login form div{
+	display: flex;
+	flex-direction: column ;
+	align-items: flex-start;
+	gap: 10px;
+}
+.login form{
+	display: flex;
+	align-items: flex-start	;
+	
+	flex-direction: column;
+
+}
+.login h1{
+	margin: 0 !important;
+}
+
+.welcome{
+	color: grey;
+	font-size: 14px;
+}
+.login input{
+	width: 340px;
+	padding: 14px 5px;
+}
+.login a{
+	justify-self: center;
+	color: black ;
+
+}
+.login form div span{
+	align-self: center;
+
+}
+.login button{
+	width: 100%;
+	border: 0;
+	padding: 15px 0;
+	color: white;
+	background-color: #0085C3;
+	font-size: 18px;
+}
+.login label{
+	font-weight: 900;
+}
+.checkb{
+	display: flex;
+flex-direction: row !important;
+}
+.checkb label{
+	font-size: 12px;
+}
+.checkb input{
+	width: fit-content;
+}
